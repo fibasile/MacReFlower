@@ -32,5 +32,18 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleTypeName</key>
+			<string>PDF Documents</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>application/x-pdf</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

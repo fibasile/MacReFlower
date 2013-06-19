@@ -13,6 +13,7 @@
 		F4D7C9C61770CBE600C57EC1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F4D7C9C41770CBE600C57EC1 /* Credits.rtf */; };
 		F4D7C9C91770CBE600C57EC1 /* MRFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7C9C81770CBE600C57EC1 /* MRFAppDelegate.m */; };
 		F4D7C9CC1770CBE600C57EC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D7C9CA1770CBE600C57EC1 /* MainMenu.xib */; };
+		F4D7C9D41770CF2500C57EC1 /* MRFOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7C9D31770CF2500C57EC1 /* MRFOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F4D7C9C71770CBE600C57EC1 /* MRFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRFAppDelegate.h; sourceTree = "<group>"; };
 		F4D7C9C81770CBE600C57EC1 /* MRFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFAppDelegate.m; sourceTree = "<group>"; };
 		F4D7C9CB1770CBE600C57EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4D7C9D21770CF2500C57EC1 /* MRFOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFOperation.h; sourceTree = "<group>"; };
+		F4D7C9D31770CF2500C57EC1 /* MRFOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F4D7C9C81770CBE600C57EC1 /* MRFAppDelegate.m */,
 				F4D7C9CA1770CBE600C57EC1 /* MainMenu.xib */,
 				F4D7C9BC1770CBE600C57EC1 /* Supporting Files */,
+				F4D7C9D21770CF2500C57EC1 /* MRFOperation.h */,
+				F4D7C9D31770CF2500C57EC1 /* MRFOperation.m */,
 			);
 			path = MacReFlower;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				F4D7C9C21770CBE600C57EC1 /* main.m in Sources */,
 				F4D7C9C91770CBE600C57EC1 /* MRFAppDelegate.m in Sources */,
+				F4D7C9D41770CF2500C57EC1 /* MRFOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
