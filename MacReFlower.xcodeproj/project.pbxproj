@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48BF926177A0A9600F0BDE6 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = F48BF925177A0A9600F0BDE6 /* icon.iconset */; };
 		F4D7C9B61770CBE600C57EC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D7C9B51770CBE600C57EC1 /* Cocoa.framework */; };
 		F4D7C9C01770CBE600C57EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D7C9BE1770CBE600C57EC1 /* InfoPlist.strings */; };
 		F4D7C9C21770CBE600C57EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7C9C11770CBE600C57EC1 /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F48BF925177A0A9600F0BDE6 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
 		F4D7C9B21770CBE600C57EC1 /* MacReFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D7C9B51770CBE600C57EC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F4D7C9B81770CBE600C57EC1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +51,7 @@
 		F4D7C9A91770CBE600C57EC1 = {
 			isa = PBXGroup;
 			children = (
+				F48BF925177A0A9600F0BDE6 /* icon.iconset */,
 				F4D7C9BB1770CBE600C57EC1 /* MacReFlower */,
 				F4D7C9B41770CBE600C57EC1 /* Frameworks */,
 				F4D7C9B31770CBE600C57EC1 /* Products */,
@@ -162,6 +165,7 @@
 				F4D7C9C01770CBE600C57EC1 /* InfoPlist.strings in Resources */,
 				F4D7C9C61770CBE600C57EC1 /* Credits.rtf in Resources */,
 				F4D7C9CC1770CBE600C57EC1 /* MainMenu.xib in Resources */,
+				F48BF926177A0A9600F0BDE6 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				F4D7C9D11770CBE600C57EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
