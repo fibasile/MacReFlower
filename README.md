@@ -8,6 +8,11 @@ might work for other e-Ink devices..
 The program uses the [k2pdfopt](http://www.willus.com/k2pdfopt) utility, which you should downlad and put in your PATH,
 i.e. in /usr/local/bin folder.
 
+Screenshots
+===========
+
+![Initial screen](../blob/master/screenshots/screenshot.png?raw=true)
+![Conversion progress](../blob/master/screenshots/screenshot2.png?raw=true)
 
 License
 =======
