@@ -6,7 +6,7 @@ MacReFlower
 This is a little utility app that allows to drop PDF files and get them optimized for viewing on the Kindle Paperwhite, but
 might work for other e-Ink devices..
 
-The program uses the [k2pdfopt](http://www.willus.com/k2pdfopt) utility, which you should downlad and put in your PATH,
+The program uses the [k2pdfopt](http://www.willus.com/k2pdfopt) utility, which you should download and put in your PATH,
 i.e. in /usr/local/bin folder.
 
 Screenshots
