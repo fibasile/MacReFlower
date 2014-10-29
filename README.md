@@ -9,6 +9,9 @@ might work for other e-Ink devices..
 The program uses the [k2pdfopt](http://www.willus.com/k2pdfopt) utility, which you should download and put in your PATH,
 i.e. in /usr/local/bin folder.
 
+**Please also make sure that k2pdfopt is executable (i.e. chmod +x k2pdfopt)**
+
+
 Screenshots
 ===========
 ![Initial screen](https://raw.github.com/fibasile/MacReFlower/master/screenshots/screenshot.png)
