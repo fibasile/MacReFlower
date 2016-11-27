@@ -7,12 +7,15 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeMIMETypes</key>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>application/x-pdf</string>
+				<string>pdf</string>
+				<string>PDF</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>PDF Documents</string>
+			<string>PDF</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 		</dict>
