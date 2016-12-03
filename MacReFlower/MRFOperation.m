@@ -16,10 +16,10 @@
     NSTask *task;
     task = [[NSTask alloc] init];
     [task setLaunchPath: @"/usr/bin/which"];
-    NSString* path = [[[NSProcessInfo processInfo]environment]objectForKey:@"PATH"];
-    path = [path stringByAppendingFormat:@":/usr/local/bin"];
-    [task setEnvironment:[NSDictionary dictionaryWithObject:path forKey:@"PATH"]];
+
+    [task setEnvironment:[NSDictionary dictionaryWithObject:[[NSBundle mainBundle] resourcePath] forKey:@"PATH"]];
     [task setArguments:[NSArray arrayWithObjects: scriptName, nil]];
+
     NSPipe *pipe, *errorPipe;
     pipe = [NSPipe pipe];
     errorPipe = [NSPipe pipe];

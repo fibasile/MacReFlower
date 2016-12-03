@@ -15,6 +15,7 @@
 		F4D7C9C91770CBE600C57EC1 /* MRFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7C9C81770CBE600C57EC1 /* MRFAppDelegate.m */; };
 		F4D7C9CC1770CBE600C57EC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D7C9CA1770CBE600C57EC1 /* MainMenu.xib */; };
 		F4D7C9D41770CF2500C57EC1 /* MRFOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7C9D31770CF2500C57EC1 /* MRFOperation.m */; };
+		F7E62A2C1DEB889E009EB116 /* k2pdfopt in Resources */ = {isa = PBXBuildFile; fileRef = F7E62A2B1DEB889E009EB116 /* k2pdfopt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F4D7C9CB1770CBE600C57EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F4D7C9D21770CF2500C57EC1 /* MRFOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFOperation.h; sourceTree = "<group>"; };
 		F4D7C9D31770CF2500C57EC1 /* MRFOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFOperation.m; sourceTree = "<group>"; };
+		F7E62A2B1DEB889E009EB116 /* k2pdfopt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = k2pdfopt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		F4D7C9BB1770CBE600C57EC1 /* MacReFlower */ = {
 			isa = PBXGroup;
 			children = (
+				F7E62A2B1DEB889E009EB116 /* k2pdfopt */,
 				F4D7C9C71770CBE600C57EC1 /* MRFAppDelegate.h */,
 				F4D7C9C81770CBE600C57EC1 /* MRFAppDelegate.m */,
 				F4D7C9CA1770CBE600C57EC1 /* MainMenu.xib */,
@@ -139,6 +142,11 @@
 				CLASSPREFIX = MRF;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Fiore Basile";
+				TargetAttributes = {
+					F4D7C9B11770CBE600C57EC1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = F4D7C9AD1770CBE600C57EC1 /* Build configuration list for PBXProject "MacReFlower" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -165,6 +173,7 @@
 				F4D7C9C01770CBE600C57EC1 /* InfoPlist.strings in Resources */,
 				F4D7C9C61770CBE600C57EC1 /* Credits.rtf in Resources */,
 				F4D7C9CC1770CBE600C57EC1 /* MainMenu.xib in Resources */,
+				F7E62A2C1DEB889E009EB116 /* k2pdfopt in Resources */,
 				F48BF926177A0A9600F0BDE6 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +283,9 @@
 		F4D7C9D01770CBE600C57EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacReFlower/MacReFlower-Prefix.pch";
 				INFOPLIST_FILE = "MacReFlower/MacReFlower-Info.plist";
@@ -286,7 +297,9 @@
 		F4D7C9D11770CBE600C57EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacReFlower/MacReFlower-Prefix.pch";
 				INFOPLIST_FILE = "MacReFlower/MacReFlower-Info.plist";
